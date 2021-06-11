@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <title>SafetyPet Co.</title>
     <link rel="shortcut icon" type="image/png" href="pictures/logogreen.png">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body class="bg-info">
@@ -14,96 +15,118 @@
         <nav class="navbar bg-dark text-white p-1">
             <h1><img src="pictures/logo.png" width="80" height="80"> SafetyPet Co. - Profesional Veterinary Clinic</h1>
         </nav>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Warning!</strong> Due to Covid-19 restrictions, there is a limited amount of people allowed in the building.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
     </header>
 
     <main>
-        <div class="container marketing">
+        <div class="container">
 
-            <!-- SECTION DIVIDER -->
+            <!-- MESSAGE FORM FOUNDER -->
             <div class="bg-body container-fluid py-4 mt-3 justify-content-center text-center">
-                <h1 class="fw-light"><img src="pictures/logogreen.png" width="80" height="80">SafetyPet Co.</h1>
-                <h2 class="fw-light"><br>Message from the founder:</h2>
-                <p class="lead text-muted">"Our local vetiranarian clinic provides services to help your pet
+                <h1><img src="pictures/logogreen.png" width="80" height="80">SafetyPet Co.</h1>
+                <h2><br>Message from the founder:</h2>
+                <p class="lead">"Our local vetiranarian clinic provides services to help your pet
                     reach its full potential. We take pride in our work and are determined to resolve any
                     medical issue that is presented to us."</p>
             </div>
 
-            <!-- SECTION DIVIDER -->
+            <!-- EXPERTS -->
             <div class="bg-body container-fluid py-4 mt-3 justify-content-center">
-                <h2 class="featurette-heading">Meet our team <br><span class="text-muted">Experts that are willing to
-                        help.</span></h2>
+                <h2 class="featurette-heading"><b>Meet our team</b> <br><span class="text-muted">Experts that are willing to help.</span></h2>
                 <br><br>
                 <div class="row justify-content-center">
+
+                    <!-- DOCTOR 1 -->
                     <div class="col-lg-3">
                         <img class="round" src="pictures/doctor1.jpg" width="250" height="250">
-                        <h2><br>Dr. Hillary Waterman</h2>
-                        <p>Head of operations</p>
+                        <h2><br>Dr. Smith</h2>
+                        <p>Doctor Hillary Smith is the <b>Head of Operations</b> of our team. She deals with extreme
+                            emergencies and the medical care department.</p>
                     </div>
 
+                    <!-- DOCTOR 2 -->
                     <div class="col-lg-3">
                         <img class="round" src="pictures/doctor3.jpg" width="250" height="250">
-                        <h2><br>Dr. Kevin Plazzo</h2>
-                        <p>Lead researcher</p>
+                        <h2><br>Dr. Plazzo</h2>
+                        <p>Doctor Kevin Plazzo is the <b>Lead Researcher</b> in our laboratory. He is also in charge of
+                            all dentistry and chiropractic procedures.</p>
                     </div>
 
+                    <!-- DOCTOR 3 -->
                     <div class="col-lg-3">
                         <img class="round" src="pictures/doctor2.jpg" width="250" height="250">
-                        <h2><br>Dr. Jessie Williams</h2>
-                        <p>Senior Veterinarian</p>
+                        <h2><br>Dr. Williams</h2>
+                        <p>Doctor Ainsly Williams is the <b>Senior Veterinarian</b> in our office. She mainly works with
+                            Ultrasounds and big pet Grooming.</p>
                     </div>
                 </div>
             </div>
 
-            <!-- SECTION DIVIDER -->
+            <!-- SERVICES -->
             <div class="bg-body container-fluid py-4 mt-3">
-                <h2 class="featurette-heading">Our services<br><span class="text-muted">Profesional. Efficient.
-                        Concise.</span></h2>
-                <br>
-                <div class="row g-4 row-cols-1 row-cols-lg-3">
-                    <div>
-                        <h2>Medical Care</h2>
-                        <p>Our high-level surgeons use the best technology and surgery procedures to ensure your pet
-                            will walk out healthier and rejuvenated. 
-                            <br><br>60 - 150$ per session.</p>
-                    </div>
-                    <div>
-                        <h2>Dentistry Services</h2>
-                        <p>Your pets teeth are crucial to its health. A proper teeth cleaning can go a long way. Our
-                            experts provide an exceptional service that your pet will thank you for.
-                            <br><br>100 - 250$ per session.</p>
-                    </div>
-                    <div>
-                        <h2>Chiropractic Services</h2>
-                        <p>Animal chiropractors can help treat a number of conditions, including: Chronic
-                            musculoskeletal problems. Acute tension or stiffness. Separation anxiety. 
-                            <br><br>120 - 350$ per session.</p>
-                    </div>
-                </div>
-                <br>
-                <div class="row g-4 row-cols-1 row-cols-lg-2">
-                    <div>
-                        <h2>Ultrasounds</h2>
-                        <p>Examine abdominal structures, perform pregnancy diagnosis, evaluate cardiac function and
-                            examine the eyes. Our experts use non-invasive imaging techniques that allow internal body
-                            structures to be seen by recording echoes or reflections of ultrasonic waves. 
-                            <br><br>150 - 200$ per session.</p>
-                    </div>
-                    <div>
-                        <h2>Grooming</h2>
-                        <p>Having a happy and healthy animal includes stress-free grooming. Depending on the type of
-                            animal you have, or the grooming style you prefer, the grooming needs will vary. Our team
-                            will treat your pet with respect and ensure a great experience. 
-                            <br><br>20 - 100$ per session.</p>
-                    </div>
-                </div>
+                <h2 class="featurette-heading"><b>Our services</b><br><span class="text-muted">Profesional. Efficient. Concise.</span></h2>
+                <table class="table table-info table-hover">
+                    <thead>
+                        <tr>
+                            <th style="width: 10%">
+                                <h2>Services</h2>
+                            </th>
+                            <th style="width: 80%">
+                                <h2>Description</h2>
+                            </th>
+                            <th style="width: 10%">
+                                <h2>Price</h2>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Medical Care</td>
+                            <td>Our high-level surgeons use the best technology and surgery procedures to ensure your
+                                pet will walk out healthier and rejuvenated.</td>
+                            <td>60 - 200$</td>
+                        </tr>
+                        <tr>
+                            <td>Dentistry</td>
+                            <td>Your pets teeth are crucial to its health. A proper teeth cleaning can go a long way.
+                                Our experts provide an exceptional service that your pet will thank you for.</td>
+                            <td>40 - 100$</td>
+                        </tr>
+                        <tr>
+                            <td>Chiropractic</td>
+                            <td>Animal chiropractors can help treat a number of conditions, including: Chronic
+                                musculoskeletal problems. Acute tension or stiffness. Separation anxiety.</td>
+                            <td>80 - 150$</td>
+                        </tr>
+                        <tr>
+                            <td>Ultrasounds</td>
+                            <td>Examine abdominal structures, perform pregnancy diagnosis, evaluate cardiac function and
+                                examine the eyes. Our experts use non-invasive imaging techniques that allow internal
+                                body structures to be seen by recording echoes or reflections of ultrasonic waves.</td>
+                            <td>90 - 165$</td>
+                        </tr>
+                        <tr>
+                            <td>Grooming</td>
+                            <td>Having a happy and healthy animal includes stress-free grooming. Depending on the type
+                                of animal you have, or the grooming style you prefer, the grooming needs will vary. Our 
+                                team will treat your pet with respect and ensure a great experience. </td>
+                            <td>20 - 100$</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
-            <!-- SECTION DIVIDER -->
+            <!-- BOOKINGS -->
             <div class="bg-body container-fluid py-4 mt-3">
-                <h2 class="featurette-heading">Book a service <br><span class="text-muted">It is our pleasure to have
+                <h2 class="featurette-heading"><b>Book a service</b><br><span class="text-muted">It is our pleasure to have
                         you.</span></h2>
+                
+                <!-- FORM -->
                 <div class="row featurette">
-                    <div class="col-md-7 order-md-2">
+                    <div class="col-lg-6">
                         <form>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label"><br>Full name (first / last)</label>
@@ -143,42 +166,44 @@
                             <button type="submit" class="btn btn-primary">Book appointment</button>
                         </form>
                     </div>
-                    <div class="col-md-5 order-md-1">
-                        <img class="img" src="pictures/doctor4.jpg" width="500" height="500">
+
+                    <!-- PICTURE -->
+                    <div class="col-lg-4">
+                        <br><img class="img" src="pictures/doctor4.jpg" width="500" height="500">
                     </div>
                 </div>
             </div>
 
-            <!-- SECTION DIVIDER -->
+            <!-- CONTACT -->
             <div class="bg-body container-fluid py-4 mt-3">
                 <div class="row featurette">
-                    <div class="col-md-6">
-                        <h2 class="featurette-heading">Contact Us <br><span class="text-muted">We are happy to
+                    <!-- TEXT -->
+                    <div class="col-lg-6">
+                        <h2 class="featurette-heading"><b>Contact Us</b><br><span class="text-muted">We are happy to
                                 help.</span></h2>
-                        <p class="lead"><br><b>Phone:</b> +1 (613) 222 3739 
+                        <p class="lead"><br><b>Phone:</b> +1 (613) 222 3739
                             <br><br> <b>Email:</b> contact@safetypet.com
                             <br><br> <b>Location:</b> 111 Shuttleworth Dr. Unit 6, Ottawa, ON K1T 0W7</p>
                     </div>
-                    <div class="col-md-4">
-                        <br>
-                        <div class="mapouter">
-                            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
-                                src="https://maps.google.com/maps?q=111%20Shuttleworth%20Dr.%20Unit%206,%20Ottawa,%20ON%20K1T%200W7&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-                                <br>
-                            </div>
-                        </div>
+                    <!-- MAP -->
+                    <div class="col-lg-4">
+                        <br><iframe width="500" height="500"
+                            src="https://maps.google.com/maps?q=111%20Shuttleworth%20Dr.%20Unit%206,%20Ottawa,%20ON%20K1T%200W7&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
                         <br>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+
 </body>
 
 <footer class="py-4 mt-5 bg-dark text-white">
-    <div class="container">
-        <p>Website designed by: Arsène Lupin ⚡</p>
-    </div>
+    <div class="container"><p>Website designed by: Arsène Lupin ⚡</p></div>
 </footer>
 
 </html>
